@@ -1,7 +1,7 @@
 {
   "name": "kbdayz",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "A less than 1kb date and time formatter",
   "main": "index.js",
   "scripts": {
     "build": "./node_modules/.bin/babel src --out-file index.js"
