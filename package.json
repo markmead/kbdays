@@ -1,6 +1,6 @@
 {
-  "name": "kbdayz",
-  "version": "1.0.1",
+  "name": "kbdays",
+  "version": "1.0.0",
   "description": "A less than 1kb date and time formatter",
   "main": "index.js",
   "scripts": {

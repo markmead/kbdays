@@ -1,9 +1,9 @@
 # kbdayz
 
-![](https://img.shields.io/bundlephobia/min/kbdayz)
-![](https://img.shields.io/npm/v/kbdayz)
-![](https://img.shields.io/npm/dt/kbdayz)
-![](https://img.shields.io/github/license/markmead/kbdayz)
+![](https://img.shields.io/bundlephobia/min/kbdays)
+![](https://img.shields.io/npm/v/kbdays)
+![](https://img.shields.io/npm/dt/kbdays)
+![](https://img.shields.io/github/license/markmead/kbdays)
 
 ## Install
 
@@ -46,7 +46,7 @@ new DateFormat(new Date(), {
 new DateFormat(new Date(), {
   lang: 'en',
   country: 'US',
-  dateStyle: 'long',
+  timeStyle: 'long',
 }).format()
 
 // 2:30:30 PM GMT+1
