@@ -1,4 +1,4 @@
-# kbdayz
+# kbDays
 
 ![](https://img.shields.io/bundlephobia/min/kbdays)
 ![](https://img.shields.io/npm/v/kbdays)
@@ -8,16 +8,16 @@
 ## Install
 
 ```js
-npm install kbdayz
+npm install kbdays
 
-// or with Yarn
-
-yarn add kbdayz
+yarn add kbdays
 ```
 
 ## Usage
 
 ```js
+import DateFormat from 'kbjdays'
+
 new DateFormat(new Date(), {
   lang: 'en',
   country: 'US',
@@ -35,6 +35,8 @@ You can pass a `dateStyle` and a `timeStyle` to format the date differently.
 These take `short`, `medium` and `long` as options.
 
 ```js
+import DateFormat from 'kbjdays'
+
 new DateFormat(new Date(), {
   lang: 'en',
   country: 'US',
